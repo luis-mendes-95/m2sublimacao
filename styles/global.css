@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body{
+    background-color: var(--darkBackgrounds2);
+}
+
+:root{
+
+    --darkLetters1: black;
+    --darkLetters2: rgb(63, 63, 63);
+    --lightLetters1: white;
+
+    --darkBackgrounds1: rgb(0, 0, 0);
+    --darkBackgrounds2: rgb(63, 63, 63);
+    --lightBackgrounds1: white;
+
+    --fontWeight1: 100;
+    --fontWeight2: 200;
+    --fontWeight2: 300;
+
+    --font: bebas neue;
+
+    --fontSize1: 25pt;
+}
