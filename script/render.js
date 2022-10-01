@@ -4,7 +4,7 @@ function renderHeader() {
 
         let img_logo = document.createElement("img")
         img_logo.classList.add("img_logo")
-        img_logo.src = "/assets/logo-m2.png"
+        img_logo.src = "./assets/logo-m2.png"
         header_app.appendChild(img_logo)
 }
 
