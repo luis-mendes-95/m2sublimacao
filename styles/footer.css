@@ -1,0 +1,46 @@
+.footer_app{
+    width: 100vw;
+    max-height: 50vh;
+    background-color: var(--darkBackgrounds1);
+    color: var(--lightLetters1);
+}
+
+.ul_footer_data{
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.img_logo_insta, .img_logo_pin_map, .img_logo_whats_logo, .img_logo_phone_logo{
+    max-width: 5vw;
+    max-height: 5vh;
+}
+
+.li_individual_footer_data, .li_individual_footer_address, .li_individual_footer_whats, .li_individual_footer_phone{
+    background-color: var(--darkBackgrounds1);
+    border: 1pt solid var(--lightLetters1);
+    border-radius: 8px;
+    max-height: 8vh;
+    max-width: 80vw;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2vh 2vw;
+}
+
+.li_individual_footer_data:hover, .li_individual_footer_address:hover, .li_individual_footer_whats:hover, .li_individual_footer_phone:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .ul_footer_data{
+        padding: 2vh 2vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+    }
+}

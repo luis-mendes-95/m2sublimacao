@@ -1,0 +1,19 @@
+@keyframes appearFromUp {
+    0% {
+        margin: -50vh 0;
+    }
+
+    100% {
+        margin: 0 0;
+    }
+}
+
+@keyframes appearFromBottom {
+    0% {
+        margin: 50vh 0;
+    }
+
+    100% {
+        margin: 0 0;
+    }
+}
