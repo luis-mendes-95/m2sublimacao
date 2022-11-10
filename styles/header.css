@@ -1,18 +1,17 @@
-.header_app{
+.header_app {
     background-color: var(--darkBackgrounds1);
     display: flex;
     justify-content: center;
-    padding: 4vh 0;
+    align-items: center;
     margin: 0 0;
     height: 20vh;
-
 }
 
-.img_logo{
-    width: 55vw;
+.img_logo {
+    width: 185px;
     margin: 0 0;
     animation: appearFromUp 0.7s;
-    position: absolute;
+    
 }
 
 @media (min-width: 768px) {

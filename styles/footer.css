@@ -30,6 +30,7 @@
     align-items: center;
     gap: 10px;
     padding: 2vh 2vw;
+    text-align: center;
 }
 
 .li_individual_footer_data:hover, .li_individual_footer_address:hover, .li_individual_footer_whats:hover, .li_individual_footer_phone:hover{
